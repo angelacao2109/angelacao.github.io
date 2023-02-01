@@ -1,0 +1,148 @@
+
+body, html {
+    margin: 0px;
+    font-family:'Monaco',"Lucida Console";
+    background-color: #F8C8DC;
+width: 100%;
+}
+
+images{
+  border-radius: 30px;
+}
+
+.top{
+background-color: #F8C8DC;
+padding: 20px;
+
+
+}
+
+.middle {
+background-color: #F8C8DC;
+padding: 100px;
+}
+
+
+.bottom{
+background-color: #F8C8DC;
+padding: 20px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #5A5A5A;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #5A5A5A;
+    text-decoration: none;
+  }
+  a:hover{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  h2, h3 , p {
+    color: #323E42;
+    font-size: medium;
+  }
+h1{
+  color:black;
+}
+
+button{
+  text-align: center;
+  display: inline-block;
+  padding: 5px 5px;
+}
+  hr {
+    color: black;
+    border-top:  5px solid;
+    clear: both;
+
+width: 100%;
+
+
+  }
+
+  h1{
+    text-align: center;
+  }
+  h2{ 
+    text-align: center;
+  }
+  
+
+  .top img {
+    float:inline-start;
+    width: 100px;
+    height: 100px;
+  
+  }
+
+ 
+ 
+  .top h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+  .hellokitty1 {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    left: 1000px;
+}
+
+.hellokitty2 {
+  position: absolute;
+  width: 100px;
+  left: 330px;
+  top: 100px;
+}
+
+.headshot{
+  position: absolute;
+  left: 670px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.lang{
+  column-count: 2;
+  width: 150%;
+  
+}
+
+.logo{
+  column-count: 2;
+  width: 150%;
+}
+
+
+.cr{
+  text-align: center;
+}
+
+.contact {
+ 
+  text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.pos{
+   width: 100%;
+}
